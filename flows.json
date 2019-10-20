@@ -1,0 +1,827 @@
+[
+    {
+        "id": "50633f4c.79031",
+        "type": "tab",
+        "label": "Main",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ede5b1a8.5e692",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d29d489d.a5eb08",
+        "type": "tab",
+        "label": "Logging",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "769c2bee.770854",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#016d92",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#016d92",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#016d92",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#02a6de",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#016d92",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Title set in Dashboard Settings->Site->Title",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2cd4d2fd.0fd87e",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d18db2a1.1d7d6",
+        "type": "ui_group",
+        "z": "",
+        "name": "Puzzle One",
+        "tab": "2cd4d2fd.0fd87e",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e4445a6a.cdd3e8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Logs",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d619a65c.3c6828",
+        "type": "ui_group",
+        "z": "",
+        "name": "Main",
+        "tab": "2cd4d2fd.0fd87e",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "415e9cd0.3be814",
+        "type": "ui_group",
+        "z": "",
+        "name": "Menu",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3aea45c1.0b3cfa",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 2",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4aa92a62.f0f444",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 1",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bf910b9f.e52708",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 3",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "55400ce8.3248c4",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "e4445a6a.cdd3e8",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "f8181894.efe8b8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "d18db2a1.1d7d6",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "12305eb1.b74fe1",
+        "type": "change",
+        "z": "ede5b1a8.5e692",
+        "name": "set unlock",
+        "rules": [
+            {
+                "t": "set",
+                "p": "puzzel_one_unlocked",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "title",
+                "pt": "msg",
+                "to": "Puzzle One",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 180,
+        "wires": [
+            [
+                "b25e0e55.18733"
+            ]
+        ]
+    },
+    {
+        "id": "8a0b747f.8ae8e8",
+        "type": "ui_button",
+        "z": "ede5b1a8.5e692",
+        "name": "",
+        "group": "d18db2a1.1d7d6",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "force unlock",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "12305eb1.b74fe1"
+            ]
+        ]
+    },
+    {
+        "id": "b25e0e55.18733",
+        "type": "function",
+        "z": "ede5b1a8.5e692",
+        "name": "status",
+        "func": "msg.status=(msg.payload)?\"unlocked\":\"locked\";\nmsg.color=(msg.payload)?\"#00ff00\":\"#ff0000\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 480,
+        "y": 180,
+        "wires": [
+            [
+                "52ec713.dbb409",
+                "a9c83726.225f18"
+            ]
+        ]
+    },
+    {
+        "id": "3e00fe0d.6d2f42",
+        "type": "link in",
+        "z": "ede5b1a8.5e692",
+        "name": "Reset Puzzel One",
+        "links": [
+            "82beacb0.241b7"
+        ],
+        "x": 145,
+        "y": 180,
+        "wires": [
+            [
+                "12305eb1.b74fe1"
+            ]
+        ]
+    },
+    {
+        "id": "52ec713.dbb409",
+        "type": "ui_template",
+        "z": "ede5b1a8.5e692",
+        "group": "d18db2a1.1d7d6",
+        "name": "Puzzel Status Color Bar",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-style=\"{width:'100%',height:'10px','background-color':msg.color}\" ></div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 660,
+        "y": 120,
+        "wires": [
+            [
+                "4bc159cf.043de8"
+            ]
+        ]
+    },
+    {
+        "id": "a9c83726.225f18",
+        "type": "ui_template",
+        "z": "ede5b1a8.5e692",
+        "group": "d18db2a1.1d7d6",
+        "name": "Status Header",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<i style=\"position:absolute;top:5px;left:10px\" ng-class=\"msg.payload ? 'fa fa-unlock fa-2x' : 'fa fa-lock fa-2x'\"></i>\n<div style=\"position:absolute;left:50px;top:10px;font-size:larger;\" ng-bind-html=\"msg.title\"></div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "4bc159cf.043de8"
+            ]
+        ]
+    },
+    {
+        "id": "4bc159cf.043de8",
+        "type": "debug",
+        "z": "ede5b1a8.5e692",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 900,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ecc1bba3.70f198",
+        "type": "function",
+        "z": "50633f4c.79031",
+        "name": "set button label",
+        "func": "msg.label = msg.payload ? \"Stop\" : \"Start\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "9e5d001c.30d41"
+            ]
+        ]
+    },
+    {
+        "id": "7f7b6af2.189564",
+        "type": "function",
+        "z": "50633f4c.79031",
+        "name": "set running state",
+        "func": "global.set(\"game_running\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 280,
+        "wires": [
+            [
+                "ecc1bba3.70f198",
+                "1b148043.ce771"
+            ]
+        ]
+    },
+    {
+        "id": "9e5d001c.30d41",
+        "type": "ui_button",
+        "z": "50633f4c.79031",
+        "name": "Start/Pause",
+        "group": "d619a65c.3c6828",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.label}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 770,
+        "y": 260,
+        "wires": [
+            [
+                "7ab9638f.b5c32c"
+            ]
+        ]
+    },
+    {
+        "id": "67b7fd0d.bc16a4",
+        "type": "link in",
+        "z": "50633f4c.79031",
+        "name": "reset game",
+        "links": [
+            "82beacb0.241b7"
+        ],
+        "x": 55,
+        "y": 240,
+        "wires": [
+            [
+                "7bc79147.6eaf7"
+            ]
+        ]
+    },
+    {
+        "id": "701cbf14.7c611",
+        "type": "function",
+        "z": "50633f4c.79031",
+        "name": "stop game",
+        "func": "msg.payload = false;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "7f7b6af2.189564"
+            ]
+        ]
+    },
+    {
+        "id": "3d8cf255.11ea0e",
+        "type": "switch",
+        "z": "50633f4c.79031",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 870,
+        "y": 300,
+        "wires": [
+            [
+                "d1cdd939.90ebc8"
+            ],
+            [
+                "ebad81b5.10531"
+            ]
+        ]
+    },
+    {
+        "id": "357d09e.8c1e5f6",
+        "type": "function",
+        "z": "50633f4c.79031",
+        "name": "toggle running ",
+        "func": "msg.payload = !global.get(\"game_running\");\n\n//global.set('game_running',msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "7f7b6af2.189564"
+            ]
+        ]
+    },
+    {
+        "id": "5d372acb.7fd9c4",
+        "type": "link in",
+        "z": "50633f4c.79031",
+        "name": "pause game",
+        "links": [],
+        "x": 55,
+        "y": 280,
+        "wires": [
+            [
+                "701cbf14.7c611"
+            ]
+        ]
+    },
+    {
+        "id": "ebad81b5.10531",
+        "type": "change",
+        "z": "50633f4c.79031",
+        "name": "stop log msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "game stopped",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 320,
+        "wires": [
+            [
+                "71f0f176.e1a9d"
+            ]
+        ]
+    },
+    {
+        "id": "d1cdd939.90ebc8",
+        "type": "change",
+        "z": "50633f4c.79031",
+        "name": "start log msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "starting game",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 280,
+        "wires": [
+            [
+                "71f0f176.e1a9d"
+            ]
+        ]
+    },
+    {
+        "id": "1b148043.ce771",
+        "type": "ui_template",
+        "z": "50633f4c.79031",
+        "group": "d619a65c.3c6828",
+        "name": "Countdown",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "format": "<script>\n</script>\n<div layout=\"column\" layout-align=\"center center\">\n<div>&nbsp;</div>\n<div id=\"countdown-display\" style=\"font-size:xx-large\"></div>    \n</div>\n\n<script>\n    (function(scope) {\n        let element=document.getElementById(\"countdown-display\");\n        let updateTimeout;\n        let running = false;\n        let timeElapsed = 0;\n        \n        const calcTime = function(timeElapsed){\n                /*let timeRemaining=Math.ceil( (toTime-fromTime) / 1000 );\n                console.log(fromTime,toTime,timeRemaining);\n                let overTime = timeRemaining<0;\n                if(overTime){\n                    timeRemaining=-timeRemaining;\n                }\n                (overTime?\"-\":\"\")+\n                */\n                timeElapsed=Math.floor(timeElapsed/1000);\n                let hour=Math.floor(timeElapsed/3600);\n                let minutes=Math.floor(timeElapsed/60)%60;\n                let seconds=timeElapsed%60;\n                let timeStr = [hour,minutes,seconds].map((m)=>m.toString().padStart(2,'0')).join(\":\");\n                return timeStr;\n                \n        }\n        \n        \n        \n        scope.$watch('msg',function(msg){\n            if(!msg) return;\n            //console.log(msg);\n            \n            running = msg.payload;\n            let reset = !!msg.reset;\n            //stopTime = msg.stop_time;\n            //startTime = msg.start_time;\n            //endTime = msg.end_time;\n            //console.log('msg.payload=',running);\n           // console.log('msg.stopTime',stopTime);\n            //console.log('msg.endTime',endTime);\n            \n            if(reset){\n                timeElapsed = 0;\n                lastTime = Date.now();\n            }\n            clearInterval(updateTimeout);\n            if(running){\n                element.innerHTML = \"a\";\n                lastTime = Date.now();\n                updateTimeout=setInterval(function(){\n                    element.innerHTML = \"d\";\n                    let time = Date.now();\n                    let deltaTime = time - lastTime;\n                    timeElapsed += deltaTime;\n                    element.innerHTML = \"e\";\n                    element.innerHTML = calcTime(timeElapsed);\n                    lastTime = time;\n                },100);\n            }\n            else {\n                element.innerHTML = \"b\";\n                //console.log(\"game not running\",endTime,stopTime);\n            }\n            element.innerHTML=calcTime(timeElapsed);\n\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 590,
+        "y": 300,
+        "wires": [
+            [
+                "41bf7433.b67fcc"
+            ]
+        ]
+    },
+    {
+        "id": "71f0f176.e1a9d",
+        "type": "link out",
+        "z": "50633f4c.79031",
+        "name": "",
+        "links": [
+            "179bf5b.708fa0a"
+        ],
+        "x": 1175,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8f4c6f49.ab52d",
+        "type": "ui_button",
+        "z": "50633f4c.79031",
+        "name": "",
+        "group": "d619a65c.3c6828",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "82beacb0.241b7"
+            ]
+        ]
+    },
+    {
+        "id": "82beacb0.241b7",
+        "type": "link out",
+        "z": "50633f4c.79031",
+        "name": "Reset",
+        "links": [
+            "33b28050.5bd3a",
+            "af5b48f1.3fb8e8",
+            "67b7fd0d.bc16a4",
+            "45d9e625.cec8f8",
+            "3e00fe0d.6d2f42"
+        ],
+        "x": 295,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ebe17dcc.3b906",
+        "type": "inject",
+        "z": "50633f4c.79031",
+        "name": "Started",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "6f10a20d.2f7f4c",
+                "82beacb0.241b7"
+            ]
+        ]
+    },
+    {
+        "id": "6f10a20d.2f7f4c",
+        "type": "change",
+        "z": "50633f4c.79031",
+        "name": "Config",
+        "rules": [],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3710033.8a815",
+        "type": "link in",
+        "z": "50633f4c.79031",
+        "name": "toggle paused",
+        "links": [
+            "7ab9638f.b5c32c"
+        ],
+        "x": 55,
+        "y": 320,
+        "wires": [
+            [
+                "357d09e.8c1e5f6"
+            ]
+        ]
+    },
+    {
+        "id": "7ab9638f.b5c32c",
+        "type": "link out",
+        "z": "50633f4c.79031",
+        "name": "start/pause button",
+        "links": [
+            "c3710033.8a815"
+        ],
+        "x": 875,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "7bc79147.6eaf7",
+        "type": "function",
+        "z": "50633f4c.79031",
+        "name": "reset game",
+        "func": "msg.payload = false;\nmsg.reset = true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "7f7b6af2.189564"
+            ]
+        ]
+    },
+    {
+        "id": "41bf7433.b67fcc",
+        "type": "switch",
+        "z": "50633f4c.79031",
+        "name": "",
+        "property": "reset",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 300,
+        "wires": [
+            [
+                "3d8cf255.11ea0e"
+            ],
+            [
+                "521e2554.f6c54c"
+            ]
+        ]
+    },
+    {
+        "id": "521e2554.f6c54c",
+        "type": "change",
+        "z": "50633f4c.79031",
+        "name": "reset log msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "game reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 360,
+        "wires": [
+            [
+                "71f0f176.e1a9d"
+            ]
+        ]
+    },
+    {
+        "id": "3c41f0c3.7943e",
+        "type": "ui_text",
+        "z": "d29d489d.a5eb08",
+        "group": "55400ce8.3248c4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 440,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a3cbcb92.7056d8",
+        "type": "ui_text_input",
+        "z": "d29d489d.a5eb08",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "55400ce8.3248c4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "x": 440,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    }
+]
