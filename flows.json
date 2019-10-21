@@ -579,7 +579,7 @@
         "type": "ui_template",
         "z": "50633f4c.79031",
         "group": "d619a65c.3c6828",
-        "name": "Countdown",
+        "name": "Game Time",
         "order": 1,
         "width": 6,
         "height": 2,
