@@ -1,4 +1,4 @@
-# Lockkeeper Esacape Room Template
+# Lockkeeper Escape Room Template
 
 ## Simple Usage
 
