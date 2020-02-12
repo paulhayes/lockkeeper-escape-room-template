@@ -2,7 +2,7 @@
 
 ## Simple Usage
 
-* Copy the contents of the page into your clipboard. Go into the Node-RED Editor in Lockkeeper and go to the right menu->Import->From cliboard and paste in the contents.
+* Copy the contents of the [flow.js](https://raw.githubusercontent.com/paulhayes/lockkeeper-escape-room-template/master/flows.json) into your clipboard. Go into the Node-RED Editor in Lockkeeper and go to the right menu->Import->From cliboard and paste in the contents.
 
 ## Advanced Usage
 
